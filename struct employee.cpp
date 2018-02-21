@@ -29,7 +29,7 @@ struct emp
 	  for(i=1;i<=n;i++)
 	{
 		cout<<"\nid of "<<i<<"employee is "<<e[i].id;
-		cout<<"\nname of "<<i<<"employee is "<<e[i].name[i];
+		cout<<"\nname of "<<i<<"employee is "<<e[i].name;
 		cout<<"\nthe sallary  of "<<i<<"employee is "<<e[i].sallary;
 
 	} 
