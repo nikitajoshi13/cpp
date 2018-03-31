@@ -5,10 +5,9 @@ int main()
 {
 	char ch;
 	ifstream fin;
-	fin.open("text1.txt",ios::in);
-	while(!fin.eof())
+	fin.open("text1.txt");
+	while(fin.get(ch))
 	{
-		fin.get(ch);
 		cout<<ch;
 	}
 }
